@@ -1,9 +1,10 @@
   /* Note any con word you see its abbrevation of continner word */
-
+   /* as a class for fit width */
 .fit_body_width {
      width: 100%;
 }
 
+  /* navbar class */
 nav {
     background-color: #31313D;
  }
@@ -13,9 +14,10 @@ nav {
    font-weight: 200;
  }
 
+ /* main class */
 .main {
     height: 684px;
-    background-image: url(/pic/main_img.jpg);
+    background-image: url(pic/main_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -32,6 +34,7 @@ nav {
     width: 100%;
     
 }
+
 .me_img {
     border-radius: 50%;
     width: 39%;
@@ -40,6 +43,7 @@ nav {
     
 
 }
+
 .my_name {
     color: #F05742;
 }
@@ -70,6 +74,8 @@ nav {
     font-weight: 100;
  }
 
+
+  /* about me class */
  .about {
     width: 100%;
     height: 780px;
@@ -182,7 +188,92 @@ nav {
    color: #FFFFFF;
  }
 
+ /* experience class */
 
+    .experience {
+      width: 100%;
+      height: 500px;
+      background-color: #31313D;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+    }
+
+    .experience_title {
+       margin: 1%;
+       text-shadow: 4px 2px #f0564281;
+       text-align: center;
+    }
+
+    .experience_box_con {
+       width: 80%;
+       height: 150px;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: space-around;
+
+    }
+
+    .experience_box {
+      width: 47%;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0564272;
+      border: 1px solid #505050;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    /* skills class */
+
+    .skills {
+      width: 100%;
+      height: 550px;
+      background-color: #31313D;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+    }
+
+
+    .skills_title {
+      margin-bottom: 15%;
+      text-shadow: 4px 2px #f0564281;
+   }
+  
+
+   .skill_box {
+      
+      width: 50%;
+      height: 160px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border-radius: 6px;
+   }
+
+   .skill_box_con {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-size: larger;
+      text-shadow: 4px 2px #f0564281;
+      padding: 3%;
+   }
+   
+   .skill_img {
+     width: 70px;
+   }
+
+
+   /* my service class  */
  .Servics {
    width: 100%;
    height: 690px;
@@ -260,7 +351,7 @@ nav {
    margin-bottom: 6.9%;
  }
 
-
+  /* contact me class */
  .contact_me {
    width: 100%;
    height: 690px;
@@ -269,7 +360,7 @@ nav {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-image: url(/pic/main_img.jpg);
+   background-image: url(pic/main_img.jpg);
    background-size: cover;
    background-repeat: no-repeat;
  }
@@ -318,6 +409,8 @@ nav {
    margin: 3%;
   }
 
+
+  /* footer class */
   .footer {
    width: 100%;
    height: 70px;
@@ -459,6 +552,8 @@ nav {
       height: 400px;
       
         }
+
+
  }
 
 
@@ -466,12 +561,39 @@ nav {
    .form_1 , .form_2 , .form_3 {
       width: 300px;
          }
+
+          .experience {
+            height: 800px;
+            
+          }
+
+          .experience_box {
+            height: 200px;
+          }
+
+          
+    .experience_box_con {
+      width: 80%;
+      height: 600px;
+      
+      flex-direction: column;
+      align-items: center;
+      
+
+   }
  }
 
  @media only screen and (max-width : 682px) {
    .form_1 , .form_2 , .form_3 {
       width: 150px;
          }
+
+
+         .experience_box {
+            width: 70%;
+            height: 250px;
+
+          }
  }
 
 
@@ -591,7 +713,7 @@ nav {
    
    .Services_box_con  {
       width: 30%;
-      margin-left: 15px;
+      margin-left: 29px;
    }
     
    .Services_box_main {
