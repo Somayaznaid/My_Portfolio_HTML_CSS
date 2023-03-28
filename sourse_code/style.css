@@ -38,9 +38,9 @@
   .me_img {
      border-radius: 50%;
      width: 39%;
-     object-fit: fill;
+     object-fit: cover;
      filter: brightness(0.7);
-
+     width: 200px;
 
   }
 
@@ -214,6 +214,7 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-around;
+     
 
   }
 
@@ -228,6 +229,11 @@
      text-align: center;
   }
 
+  .experience_sup_title {
+      margin: 3%;
+      text-shadow: 3px 2px #31313D;
+
+  }
   /* skills class */
 
   .skills {
@@ -266,6 +272,9 @@
      font-size: larger;
      text-shadow: 4px 2px #f0564281;
      padding: 3%;
+     border:2px solid #F05742;
+     border-radius: 6px;
+
   }
 
   .skill_img {
@@ -299,6 +308,7 @@
   .Services_box {
      color: #FFFFFF;
      margin: 2%;
+    
   }
 
   .Services_box_con {
@@ -307,7 +317,7 @@
      height: 400px;
      border-radius: 15px;
      text-align: center;
-
+     
   }
 
   .Services_box_main {
@@ -368,7 +378,7 @@
 
   .form_con {
      width: 50%;
-     height: 550px;
+     height: 530px;
      background-color: #ffffff42;
      display: flex;
      flex-direction: column;
@@ -382,7 +392,7 @@
   .form_3 {
      width: 600px;
      background-color: #f0564264;
-     height: 60px;
+     height: 50px;
      border: none;
      border-radius: 5px;
      margin: 3%;
@@ -392,7 +402,7 @@
   .form_3 {
      width: 600px;
      background-color: #f0564264;
-     height: 130px;
+     height: 120px;
      border: none;
      border-radius: 5px;
      margin: 3%;
@@ -428,7 +438,7 @@
 
 
   .footer_icon {
-     width: 30px;
+     width: 40px;
      padding: 9%;
   }
 
@@ -605,18 +615,23 @@
   }
 
 
-  @media only screen and (min-width : 2116px) {
+  @media only screen and (max-width : 1061px) {
      .me_img_div {
-        visibility: hidden;
+        display: none;
      }
 
      .main {
-        height: 600px;
+        height: 300px;
+        margin-right: 10%;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 4px 2px #31313D;
+
      }
 
      .my_name_div,
      .career {
-        font-size: 40px;
+        font-size: 20px;
      }
   }
 
